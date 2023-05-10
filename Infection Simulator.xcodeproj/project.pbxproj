@@ -9,25 +9,37 @@
 /* Begin PBXBuildFile section */
 		1F7CCC1C2A03F04500C73867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CCC1B2A03F04500C73867 /* AppDelegate.swift */; };
 		1F7CCC1E2A03F04500C73867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CCC1D2A03F04500C73867 /* SceneDelegate.swift */; };
-		1F7CCC202A03F04500C73867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CCC1F2A03F04500C73867 /* ViewController.swift */; };
 		1F7CCC232A03F04500C73867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7CCC212A03F04500C73867 /* Main.storyboard */; };
 		1F7CCC252A03F04700C73867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7CCC242A03F04700C73867 /* Assets.xcassets */; };
 		1F7CCC282A03F04700C73867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7CCC262A03F04700C73867 /* LaunchScreen.storyboard */; };
 		1F7CCC312A03F0DB00C73867 /* SimulationInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CCC302A03F0DB00C73867 /* SimulationInputViewController.swift */; };
 		1F7CCC332A03F0E400C73867 /* SimulationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CCC322A03F0E400C73867 /* SimulationInputView.swift */; };
+		1F7CCC352A03F52900C73867 /* SimulationInputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CCC342A03F52900C73867 /* SimulationInputModel.swift */; };
+		1F7CCC372A03F7F900C73867 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CCC362A03F7F900C73867 /* InputView.swift */; };
+		1F7CCC3A2A0416DA00C73867 /* InfectionModelingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CCC392A0416DA00C73867 /* InfectionModelingViewController.swift */; };
+		1F7CCC3C2A0416E000C73867 /* InfectionModelingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CCC3B2A0416E000C73867 /* InfectionModelingView.swift */; };
+		1F7CCC3E2A041B9900C73867 /* InfectionModelingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CCC3D2A041B9900C73867 /* InfectionModelingModel.swift */; };
+		1F7CCC402A0426A900C73867 /* InfectionModelingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CCC3F2A0426A900C73867 /* InfectionModelingCollectionViewCell.swift */; };
+		1FB19FA62A0BB59E007A44BB /* CounterTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB19FA52A0BB59E007A44BB /* CounterTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F7CCC182A03F04500C73867 /* Infection Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infection Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7CCC1B2A03F04500C73867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F7CCC1D2A03F04500C73867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F7CCC1F2A03F04500C73867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F7CCC222A03F04500C73867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F7CCC242A03F04700C73867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F7CCC272A03F04700C73867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F7CCC292A03F04700C73867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F7CCC302A03F0DB00C73867 /* SimulationInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationInputViewController.swift; sourceTree = "<group>"; };
 		1F7CCC322A03F0E400C73867 /* SimulationInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationInputView.swift; sourceTree = "<group>"; };
+		1F7CCC342A03F52900C73867 /* SimulationInputModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationInputModel.swift; sourceTree = "<group>"; };
+		1F7CCC362A03F7F900C73867 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		1F7CCC392A0416DA00C73867 /* InfectionModelingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfectionModelingViewController.swift; sourceTree = "<group>"; };
+		1F7CCC3B2A0416E000C73867 /* InfectionModelingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfectionModelingView.swift; sourceTree = "<group>"; };
+		1F7CCC3D2A041B9900C73867 /* InfectionModelingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfectionModelingModel.swift; sourceTree = "<group>"; };
+		1F7CCC3F2A0426A900C73867 /* InfectionModelingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfectionModelingCollectionViewCell.swift; sourceTree = "<group>"; };
+		1FB19FA52A0BB59E007A44BB /* CounterTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +72,9 @@
 		1F7CCC1A2A03F04500C73867 /* Infection Simulator */ = {
 			isa = PBXGroup;
 			children = (
+				1F7CCC382A04169100C73867 /* InfectionModeling */,
 				1F7CCC2F2A03F08300C73867 /* SimulationInput */,
 				1F7CCC1B2A03F04500C73867 /* AppDelegate.swift */,
-				1F7CCC1F2A03F04500C73867 /* ViewController.swift */,
 				1F7CCC1D2A03F04500C73867 /* SceneDelegate.swift */,
 				1F7CCC212A03F04500C73867 /* Main.storyboard */,
 				1F7CCC242A03F04700C73867 /* Assets.xcassets */,
@@ -77,8 +89,22 @@
 			children = (
 				1F7CCC302A03F0DB00C73867 /* SimulationInputViewController.swift */,
 				1F7CCC322A03F0E400C73867 /* SimulationInputView.swift */,
+				1F7CCC342A03F52900C73867 /* SimulationInputModel.swift */,
+				1F7CCC362A03F7F900C73867 /* InputView.swift */,
 			);
 			path = SimulationInput;
+			sourceTree = "<group>";
+		};
+		1F7CCC382A04169100C73867 /* InfectionModeling */ = {
+			isa = PBXGroup;
+			children = (
+				1F7CCC392A0416DA00C73867 /* InfectionModelingViewController.swift */,
+				1F7CCC3B2A0416E000C73867 /* InfectionModelingView.swift */,
+				1F7CCC3D2A041B9900C73867 /* InfectionModelingModel.swift */,
+				1F7CCC3F2A0426A900C73867 /* InfectionModelingCollectionViewCell.swift */,
+				1FB19FA52A0BB59E007A44BB /* CounterTitleView.swift */,
+			);
+			path = InfectionModeling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +178,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F7CCC202A03F04500C73867 /* ViewController.swift in Sources */,
+				1F7CCC372A03F7F900C73867 /* InputView.swift in Sources */,
 				1F7CCC1C2A03F04500C73867 /* AppDelegate.swift in Sources */,
 				1F7CCC312A03F0DB00C73867 /* SimulationInputViewController.swift in Sources */,
+				1F7CCC352A03F52900C73867 /* SimulationInputModel.swift in Sources */,
+				1F7CCC402A0426A900C73867 /* InfectionModelingCollectionViewCell.swift in Sources */,
+				1FB19FA62A0BB59E007A44BB /* CounterTitleView.swift in Sources */,
+				1F7CCC3C2A0416E000C73867 /* InfectionModelingView.swift in Sources */,
+				1F7CCC3E2A041B9900C73867 /* InfectionModelingModel.swift in Sources */,
+				1F7CCC3A2A0416DA00C73867 /* InfectionModelingViewController.swift in Sources */,
 				1F7CCC1E2A03F04500C73867 /* SceneDelegate.swift in Sources */,
 				1F7CCC332A03F0E400C73867 /* SimulationInputView.swift in Sources */,
 			);
