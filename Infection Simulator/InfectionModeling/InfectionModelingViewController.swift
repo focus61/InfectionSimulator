@@ -154,8 +154,6 @@ extension InfectionModelingViewController: UICollectionViewDelegate, UICollectio
         collectionView.reloadItems(at: [indexPath])
         let thr = DispatchQueue.global(qos: .background)
         let reloadData = DispatchWorkItem {
-            self.infectCount += 1
-            self.healthyCount -= 1
             collectionView.reloadItems(at: [indexPath])
             self.update(index: indexPath.row)
         }
